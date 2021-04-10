@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.end('Subdomain Takeover By Mehedi Hasan Remon!\n');
+  res.end('Subdomain Takeover By vishnu!\n');
 });
 
 server.listen(port, () => {
